@@ -1,0 +1,95 @@
+@media (max-width: 788px) {
+    main {
+        padding: 3rem 3rem 6rem 2rem;
+    }
+}
+
+@media (max-width: 450px) {
+    main {
+        padding: 3rem 1.5rem 6rem 1.5rem;
+        text-align: center;
+    }
+
+    main h1 {
+        font-size: 1.8rem;
+    }
+
+    main::after {
+        content: '';
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        width: 5rem;
+        height: 5rem;
+        background: linear-gradient(134.83deg, transparent 49.33%, #fff 50%);
+    }
+}
+
+@media (max-width: 812px) {
+    .row .images {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1.8rem 0rem;
+        flex-wrap: wrap;
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .row {
+        width: 100%;
+
+        padding: 5rem 0.8rem 0.8rem 0.8rem;
+    }
+    .row .img-handing {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 380px) {
+    .row .img-handing h1 {
+        font-size: 1.5rem;
+    }
+
+    .row .img-handing img {
+        width: 30px;
+    }
+}
+
+@media (max-width: 950px) {
+    .last-section {
+        padding: 6rem 1.5rem 6rem 1.5rem;
+    }
+}
+
+@media (max-width: 822px) {
+    .last-section {
+        padding: 6rem 1rem 6rem 1rem;
+    }
+
+    .last-section h1 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 424px) {
+    .last-section {
+        padding: 6rem 1rem 6rem 1rem;
+    }
+
+    .last-section h1 {
+        font-size: 1rem;
+    }
+
+    .last-section::after {
+        content: '';
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        width: 5rem;
+        height: 5rem;
+        background: linear-gradient(134.83deg, transparent 49.33%, #fff 50%);
+    }
+}
